@@ -35,7 +35,7 @@ const advices = [
     "believe in yourself.",                  
     "be friendly to all living things.",     
     "make a joke every day.",                
-    "and do a good deed every day.",
+    "do a good deed every day.",
     "embrace change as it comes.",
     "take time to enjoy the small things in life.",
     "trust your intuition.",
