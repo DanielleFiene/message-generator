@@ -17,7 +17,7 @@ const actions = [
     "is full of joy,",                      
     "holds great adventure,",                
     "will revolve around dogs,",            
-    "is full of daily surprise,",           
+    "is full of daily surprises,",           
     "is filled with rainy days,",
     "is a path filled with cats,",
     "will lead to unexpected fishing adventures,",
