@@ -1,5 +1,5 @@
 // Import the functions and arrays from index.js
-import { getRandomElement, generateRandomMessage, subjects, actions, advices } from './index';
+const { getRandomElement, generateRandomMessage, subjects, actions, advices } = require('./index');
 
 describe('Message Generator Tests', () => {
   
