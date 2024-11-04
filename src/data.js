@@ -13,24 +13,38 @@ const subjects = [
 ];
 
 const actions = [
-    "will be amazing",                      
-    "is full of joy",                      
-    "holds great adventure",                
-    "will revolve around dogs",            
-    "is full of daily surprises",           
-    "is filled with rainy days"            
+    "will be amazing,",                      
+    "is full of joy,",                      
+    "holds great adventure,",                
+    "will revolve around dogs,",            
+    "is full of daily surprise,",           
+    "is filled with rainy days,",
+    "is a path filled with cats,",
+    "will lead to unexpected fishing adventures,",
+    "is full of creativity,",
+    "will surprise you time after time,",
+    "holds many secrets,",
+    "is full of friendships to come,",
+    "will be challenging,",
+    "is meant for adventure,"            
 ];
 
 const advices = [
-    "so stay positive",                     
-    "keep your rain clothes on",            
-    "believe in yourself",                  
-    "be friendly to all living things",     
-    "make a joke every day",                
-    "and do a good deed every day"          
+    "so stay positive.",                     
+    "keep your rain clothes on.",            
+    "believe in yourself.",                  
+    "be friendly to all living things.",     
+    "make a joke every day.",                
+    "and do a good deed every day.",
+    "embrace change as it comes.",
+    "take time to enjoy the small things in life.",
+    "trust your intuition.",
+    "spend time doing the things you love.",
+    "be your best all the time.",
+    "don't try to impress everyone.",
+    "you cant always get what you want."          
 ];
 
-// Exporting the data as a module to make it available for import in other files.
-// This allows other parts of the application, such as the message generator,
+// Exporting the data as a module to make it available for import in other files this allows other parts of the application, such as the message generator,
 // to access these arrays and utilize them in generating messages.
 module.exports = { subjects, actions, advices };
