@@ -16,9 +16,13 @@ body {
 .container {
     background: linear-gradient(to right, #f7971e, #ffd200);
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+    padding-bottom: 10px;
 }
 
 button {
@@ -27,12 +31,16 @@ button {
     cursor: pointer;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
-    transition: transform .4s, background-color .3s ease;
+    transition: transform .4s, background-color .8s ease;
 }
 
 button:hover {
     transform: scale(1.1);
     background-color: #3EB489;
+}
+
+button:focus {
+    outline: 2px solid #3EB489;
 }
 
 #message-display {
@@ -41,5 +49,19 @@ button:hover {
     color: #333;
     font-weight: bold;
 }
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    .container {
+        padding: 20px;
+    }
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
 
 
