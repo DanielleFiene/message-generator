@@ -13,6 +13,7 @@ app.get('/api/message', async (req, res) => {
   try {
     const message = generateRandomMessage();
     const image = await fetchRandomNatureImage(); // Fetch a random nature image
+    console.log("Message and image sent:", { message, image });
     res.json({ message, image }); // Respond with both message and image
   } catch (error) {
     console.error('Error in API:', error);

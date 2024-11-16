@@ -1,4 +1,4 @@
-const fetch = require('node-fetch'); // Import node-fetch for API calls
+const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args)); // Import node-fetch for API calls
 
 async function fetchRandomNatureImage() {
   const UNSPLASH_API_KEY = process.env.UNSPLASH_API_KEY; // Load the Unsplash API key from .env
@@ -11,10 +11,11 @@ async function fetchRandomNatureImage() {
     }
 
     const data = await response.json();
-    return data.urls.small; // Return the small-sized image URL
+    console.log("Fetched image URL:", data[0]?.urls?.small); // Log the image URL
+    return data[0]?.urls?.small; // Return the image URL from the response
   } catch (error) {
     console.error('Error fetching Unsplash image:', error);
-    return null; // Return null if an error occurs
+    return null;
   }
 }
 

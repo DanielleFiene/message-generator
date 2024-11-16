@@ -14,6 +14,7 @@ document.getElementById('generate-btn').addEventListener('click', async () => {
 
         // Parse the JSON response data to extract the message.
         const data = await response.json();
+        console.log("Received data:", data)
 
         const imageElement = document.getElementById('image-display');
         imageElement.src = data.image;
