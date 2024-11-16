@@ -15,6 +15,10 @@ document.getElementById('generate-btn').addEventListener('click', async () => {
         // Parse the JSON response data to extract the message.
         const data = await response.json();
 
+        const imageElement = document.getElementById('image-display');
+        imageElement.src = data.image;
+        imageElement.alt = "Random Nature Image";
+
         // Update the inner text of the 'message-display' element with the fetched message.
         // This displays the random message to the user.
         document.getElementById('message-display').innerText = data.message;

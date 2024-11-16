@@ -38,10 +38,12 @@ button:hover {
     transform: scale(1.1);
     background-color: #3EB489;
 }
-
-button:focus {
-    outline: 2px solid #3EB489;
+#image-display {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
 }
+
 
 #message-display {
     margin-top: 20px;
