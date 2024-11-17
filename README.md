@@ -122,13 +122,10 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-### **Showcasing Your Work**
+### **Showcasing the Work**
 This project demonstrates my ability to:
 - Set up a backend server with **Node.js** and **Express**.
 - Create and use a RESTful API.
 - Implement a frontend that interacts with a backend API.
 - Write modular, maintainable, and reusable code.
 
-Feel free to include screenshots or a deployed link to further showcase your project!
-
-Let me know if you'd like me to tailor the README even more! 😊
