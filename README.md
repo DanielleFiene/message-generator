@@ -33,7 +33,7 @@ Here's how the project works:
 - **Node.js**: JavaScript runtime for building the backend server.
 - **Express**: Lightweight framework for creating the RESTful API and serving static files.
 - **Vanilla JavaScript**: For fetching API data and manipulating the DOM in the frontend.
-- - ** Jest to test!
+- ** Jest to test!
 
 ---
 
